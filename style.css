@@ -1,0 +1,28 @@
+body {
+  margin: auto;
+  padding: 0;
+}
+nav {
+/*background-color: indigo;*/
+height: 50px;
+display: flex;
+justify-content: space-between;
+background-image: url("https://i.guim.co.uk/img/media/f47dddc24afd842c1cdc78eaf483072b32dacbfb/1507_3220_7814_4689/master/7814.jpg?width=680&dpr=1&s=none&crop=none");
+}
+nav>a {
+  color: indigo;
+  margin: auto;
+  background: lightgrey;
+}
+nav a:hover {
+  color:purple;
+}
+nav a:active {
+  color: white;
+}
+nav a:visited: {
+  color: black;
+}
+.galeria {
+  width: 200px;
+}
